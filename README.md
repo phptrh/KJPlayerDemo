@@ -1,17 +1,5 @@
 # KJPlayer
-----------------------------------------
-### 框架整体介绍
-* [作者信息](#作者信息)
-* [作者其他库](#作者其他库)
-* [功能介绍](#功能介绍)
-* [Pod使用方法](#使用方法(支持cocoapods/carthage安装))
-* [更新日志](#更新日志)
-* [效果图](#效果图)
-* [KJPlayer 功能区](#KJPlayer)
-* [KJPlayerView 展示区](#KJPlayerView)
-* [打赏作者 &radic;](#打赏作者)
 
-----------------------------------------
 #### <a id="功能介绍"></a>功能介绍
 KJPlayer 是一款视频播放器，AVPlayer的封装，继承UIView    
 1.支持播放网络和本地视频  ☑️  
@@ -29,6 +17,14 @@ KJPlayer 是一款视频播放器，AVPlayer的封装，继承UIView
 13.音频和视频混合播放  
 
 ----------------------------------------
+### 框架整体介绍
+* [作者信息](#作者信息)
+* [功能介绍](#功能介绍)
+* [更新日志](#更新日志)
+* [效果图](#效果图)
+* [KJPlayer 功能区](#KJPlayer)
+* [KJPlayerView 展示区](#KJPlayerView)
+* [打赏作者 &radic;](#打赏作者)
 
 #### <a id="作者信息"></a>作者信息
 [![Language](https://img.shields.io/badge/Language-%20Objective%20C%20-blue.svg)](https://github.com/yangKJ/KJPlayerDemo)
@@ -196,14 +192,13 @@ playerLayer.frame = view.bounds;
 ```
 
 #### <a id="KJPlayerView"></a>KJPlayerView
-提供一套完整的布局界面，视图属性我全部暴露在外界，这样方便修改和重新布局  
-直接 pod 'KJPlayer/KJPlayerView'  # 自带展示界面  
+提供一套完整的布局界面，视图属性我全部暴露在外界，这样方便修改和重新布局 `pod 'KJPlayer/KJPlayerView'` 
 
-- KJPlayerViewConfiguration:配置信息  
-- KJPlayerViewHeader:宏文件  
-- KJLightView:亮度管理  
-- KJFastView:快进倒退管理  
-- KJDefinitionView:清晰度展示面板 
+- KJPlayerViewConfiguration：配置信息  
+- KJPlayerViewHeader：宏文件  
+- KJLightView：亮度管理  
+- KJFastView：快进倒退管理  
+- KJDefinitionView：清晰度展示面板 
 
 #### 获取当前播放视频地址的算法
 如果你们需要不同的算法方式，请修改就完事
